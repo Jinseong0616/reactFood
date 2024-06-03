@@ -145,8 +145,8 @@ function MyPage(props) {
           .then((data) => {
             if (data) {
               Swal.fire({
-                title: "삭제 처리",
-                text: "정상적으로 삭제 되었습니다!",
+                title: "탈퇴 처리",
+                text: "정상적으로 탈퇴 되었습니다!",
                 icon: "success"
               });  
               sessionStorage.removeItem('userId');
